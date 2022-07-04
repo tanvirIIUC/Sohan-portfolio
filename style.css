@@ -40,3 +40,6 @@ body{
 .about img{
     width: 70%;
 }
+.exp{
+    display: flex;
+}
