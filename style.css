@@ -18,7 +18,7 @@
 h1{
     font-size: 40px;
 }
-#name{
+.name{
     color: gold;
 }
 p{
@@ -42,4 +42,22 @@ body{
 }
 .exp{
     display: flex;
+}
+.exp-box{
+     width: 40%;
+     margin-left: 5%;
+     margin-right: 5%;
+     padding-left: 15px;
+     padding-right: 15px;
+     border-radius: 10px;
+     box-shadow: 3px 3px 5px 6px #ccc;
+}
+section{
+    margin-bottom: 5%;
+}
+#exp-first-half{
+       border-left: 7px solid blue;
+}
+#exp-second-half{
+    border-left: 7px solid rgb(255, 0, 0);
 }
